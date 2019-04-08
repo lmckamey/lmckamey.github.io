@@ -1,4 +1,5 @@
 p {
+    display: inline-flex;
     color: red
 }
 
@@ -25,4 +26,34 @@ p {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+}
+
+.box-right{
+    background: #99f;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    float: left;
+}
+
+.test{
+    border: 1px solid black;
+    height: 5%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.my-image{
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.actual-stuff{
+    margin: 20px;
+    display: inline-flex;
+    width: 80%;
 }
