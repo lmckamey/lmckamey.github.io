@@ -30,7 +30,7 @@ p {
 
 .box-right{
     background: #99f;
-    width: 10%;
+    width: 15%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,9 @@ p {
 }
 
 .actual-stuff{
-    margin: 20px;
     display: inline-flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 20px;
     width: 80%;
 }
