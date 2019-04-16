@@ -39,6 +39,17 @@ p {
     float: left;
 }
 
+.left-box-link-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box-link{
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .test{
     border: 1px solid black;
     height: 5%;
