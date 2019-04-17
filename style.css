@@ -1,72 +1,11 @@
-p {
-    display: inline-flex;
-    color: red
-}
-
-.box{
-    border: 1px solid black;
-    width: 10%;
-    margin: 5px;
-    padding: 5px;
-}
-
 .nav{
-    display: flex;
-    text-align: center;
+    background-color: #555;
+    width: 75%;
+    align-content: center;
 }
 
-.nav-top-right{
-    display: inline-flex;   
-    text-align: right;
-    float: right;
-}
-
-.thingy{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-}
-
-.box-right{
-    background: #99f;
-    width: 15%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    float: left;
-}
-
-.left-box-link-container{
-    display: flex;
-    flex-direction: row;
-}
-
-.left-box-link{
-    flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.test{
-    border: 1px solid black;
-    height: 5%;
-    margin: 5px;
-    padding: 5px;
-}
-
-.my-image{
-    margin: 10px;
-    width: 80%;
-    height: 80%;
-}
-
-.actual-stuff{
-    display: inline-flex;
-    flex-direction: column;
+.projects-title{
     font-size: 20px;
-    margin: 20px;
-    width: 80%;
+    font-weight: bold;
+    text-align: center;
 }
