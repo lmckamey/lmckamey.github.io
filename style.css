@@ -9,3 +9,22 @@
     font-weight: bold;
     text-align: center;
 }
+
+.my-stuff{
+    display: inline-flex;
+}
+
+.content{  
+    float: right;
+    text-align: Left;
+    width: 85%
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+
+.carousel{
+    width: 640px;
+    height: 360px;
+}
