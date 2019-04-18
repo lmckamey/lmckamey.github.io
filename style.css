@@ -1,7 +1,28 @@
+html{
+    background-color: #222;
+}
+body{
+    background-color: #222;
+    color:white;
+}
+
 .nav{
     background-color: #555;
-    width: 75%;
     align-content: center;
+}
+
+.nav-item{
+    border: solid black 1px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.nav a{
+    color: white;
+}
+
+.jumbotron{
+    background-image: url("Images/art-astronomy-constellation-1252890.jpg");
 }
 
 .projects-title{
@@ -15,6 +36,8 @@
 }
 
 .content{  
+    background-color: #444;
+    height: 100%;
     float: right;
     text-align: Left;
     width: 85%
