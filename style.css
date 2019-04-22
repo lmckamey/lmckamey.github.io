@@ -22,7 +22,8 @@ body{
 }
 
 .jumbotron{
-    background-image: url("Images/art-astronomy-constellation-1252890.jpg");
+    background: url("Images/background.jpg") no-repeat center;
+    background-size: 100%;
 }
 
 .projects-title{
