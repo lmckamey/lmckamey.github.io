@@ -52,3 +52,12 @@ body{
     width: 640px;
     height: 360px;
 }
+
+.webgl-content{
+    background: rgba(255, 255, 255, 0.288);
+}
+
+.game-info{
+    text-align: center;
+    
+}
