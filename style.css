@@ -33,15 +33,19 @@ body{
 }
 
 .my-stuff{
-    display: inline-flex;
+    flex:1;
+}
+
+.infomation{
+    flex: 9;
 }
 
 .content{  
+    display: inline-flex;
     background-color: #444;
     height: 100%;
-    float: right;
     text-align: Left;
-    width: 85%
+    padding: 10px;
 }
 .carousel-inner > .item > img {
     width:640px;
