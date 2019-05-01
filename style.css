@@ -27,35 +27,48 @@ body{
 }
 
 .projects-title{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
+    margin: 0px 0px 10px 0px;
 }
 
 .my-stuff{
     background: #222;
     margin: 15px;
+    box-sizing: content-box;
 }
 
-.infomation{
+.my-image{
+
+}
+
+.bd-example{
+    margin: 0px auto;
+}
+
+.information{
     padding: 15px;
+    margin: 0 auto;
+    align-content: center !important;
+    text-align: center;
+    background: #444;
 }
 
 .content{  
     display: inline-flex;
     background-color: #444;
     height: 100%;
-    text-align: Left;
-    padding: 10px;
+    width: 90%;
+    text-align: left;
+    padding: 10px 0px;
 }
-.carousel-inner > .item > img {
-    width:640px;
-    height:360px;
-  }
+
+.carousel-item{
+}
 
 .carousel{
-    width: 640px;
-    height: 360px;
+    margin: 0 auto;
 }
 
 .webgl-content{
@@ -64,5 +77,5 @@ body{
 
 .game-info{
     text-align: center;
-    
+    padding: 5px 30px;    
 }
