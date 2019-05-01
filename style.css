@@ -75,6 +75,7 @@ body{
     background: rgba(255, 255, 255, 0.288);
     margin: 0 auto;
     padding: o auto;
+    width: 1000px;
 }
 
 .game-info{
