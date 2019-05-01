@@ -33,11 +33,12 @@ body{
 }
 
 .my-stuff{
-    flex:1;
+    background: #222;
+    margin: 15px;
 }
 
 .infomation{
-    flex: 9;
+    padding: 15px;
 }
 
 .content{  
