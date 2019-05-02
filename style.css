@@ -64,8 +64,6 @@ body{
     padding: 10px 0px;
 }
 
-.carousel-item{
-}
 
 .carousel{
     margin: 0 auto;
@@ -86,4 +84,22 @@ footer{
     text-align: center;
     padding: 5px 30px;  
     margin: 10px 10px;  
+}
+
+.my-image{
+    border-radius: 20px;
+}
+
+.home-button{
+    float: left;
+}
+
+.list-group-item{
+    text-align: center;
+    background: #444;
+}
+
+.list-group-item a{ 
+    color: #FFF;
+    background: #444;
 }
